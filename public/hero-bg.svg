@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Hero background">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.5" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <radialGradient id="g2" cx="35%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0.55"/>
+      <stop offset="0.35" stop-color="#a78bfa" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g3" cx="75%" cy="70%" r="75%">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.25"/>
+      <stop offset="0.4" stop-color="#22c55e" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#g1)"/>
+  <g filter="url(#blur)">
+    <circle cx="620" cy="260" r="420" fill="url(#g2)"/>
+    <circle cx="1420" cy="820" r="520" fill="url(#g3)"/>
+  </g>
+
+  <g opacity="0.18">
+    <path d="M-50 820 C 320 640, 540 980, 880 820 S 1420 680, 1980 860" fill="none" stroke="#93c5fd" stroke-width="4"/>
+    <path d="M-40 900 C 280 740, 600 1040, 980 860 S 1560 700, 1980 980" fill="none" stroke="#c4b5fd" stroke-width="3"/>
+  </g>
+</svg>
