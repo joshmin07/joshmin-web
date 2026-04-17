@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import styles from './page.module.css';
 
-const BASE = process.env.NODE_ENV === 'production' ? '/JMPortfolio' : '';
+const BASE = '';
 
 const NAV_TABS = [
   { id: 'overview', label: 'Overview' },
