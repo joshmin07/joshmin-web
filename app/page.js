@@ -149,7 +149,7 @@ export default function Home() {
       title: "Personal Portfolio Website",
       description: "A modern portfolio website to showcase my projects and skills. Using Next.js for server-side rendering and optimized performance.",
       technologies: ["Next.js", "Node.js", "HTML", "CSS", "JavaScript", "GitHub"],
-      githubLink: "https://github.com/joshmin07/JoshMinerviniPortfolioWebsite",
+      githubLink: "https://github.com/joshmin07/joshmin-web",
       images: [
         `${BASE}/hero.webp`,
         `${BASE}/https___dev-to-uploads.s3.amazonaws.com_uploads_articles_s4wofca420na01zyhzd9.webp`,
